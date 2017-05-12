@@ -1,0 +1,1 @@
+grep -r 'carolz-onTaskEnd' /home/master/mesos-work/  | grep stderr | grep -o '[0-9]\+\:[0-9]\+:[0-9]\+'
